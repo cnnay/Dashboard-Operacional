@@ -1,7 +1,7 @@
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - Layout 100% responsivo.
 - Indicadores com feedback visual de desempenho.
@@ -14,7 +14,7 @@
 
 ---
 
-## ♿ Acessibilidade
+##  Acessibilidade
 
 - Utilização da tag `main`, `header`, `section`, `nav`, `footer` e `table`.
 - Textos alternativos em imagens (`alt`).
@@ -23,7 +23,7 @@
 
 ---
 
-## 🌐 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -33,7 +33,7 @@
 
 ---
 
-## 🧪 Como Testar
+##  Como Testar
 
 1. Clone o repositório:
    ```bash
