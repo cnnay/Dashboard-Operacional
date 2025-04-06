@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visão Geral</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/estatisticas.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Link de pular para o conteúdo -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <nav class="navbar" aria-label="Menu principal">
+      <div class="logo-area">
+        <img src="assets/img/logo_abinbev.png" alt="Logotipo AB InBev" class="logo">
+        <span class="dashboard-title" aria-hidden="true"></span>
+      </div>
+      <!-- <ul class="menu"> //próximas funcionalidades
+          <li><a href="#"><i class="icon"></i> Dashboard</a></li>
+          <li><a href="#"><i class="icon"></i> Sair</a></li>
+      </ul> -->
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <h1>Dashboard Operacional</h1>
+
+    <!-- Cartões com indicadores -->
+    <section class="cards" aria-label="Indicadores de desempenho">
+      <div class="card good" role="status" aria-label="Total de filiais acima da meta">
+        <p>Total Acima da Meta</p>
+        <strong id="metric-acima" aria-live="polite">0</strong>
+      </div>
+      <div class="card ok" role="status" aria-label="Total de filiais na meta">
+        <p>Total na Meta</p>
+        <strong id="metric-nameta" aria-live="polite">0</strong>
+      </div>
+      <div class="card bad" role="status" aria-label="Total de filiais abaixo da meta">
+        <p>Total Abaixo da Meta</p>
+        <strong id="metric-abaixo" aria-live="polite">0</strong>
+      </div>
+    </section>
+
+    <!-- Tabela de dados -->
+    <section class="tabela" aria-label="Tabela de filiais">
+      <table>
+        <caption>Indicadores por filial</caption>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Vendas</th>
+            <th>Meta</th>
+            <th>Status</th>
+            <th>Responsável</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Modal com detalhes -->
+  <div id="modal" class="hidden" role="dialog" aria-modal="true" aria-hidden="true">
+    <div id="modal-body">
+      <button id="closeModal" aria-label="Fechar detalhes" title="Fechar detalhes">&times;</button>
+      <!-- Conteúdo será injetado via JS -->
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <p style="color: #efefef;">© 2025 AB InBev. Todos os direitos reservados.</p>
+    <p>
+      <a target="_blank" href="https://brandworld.ab-inbev.com/privacy-policy">Política de Privacidade</a> | 
+      <a target="_blank" href="https://brandworld.ab-inbev.com/terms-conditions">Termos de Uso</a> 
+    </p>
+    <br>
+    <a target="_blank" href="https://www.linkedin.com/in/carla-naiara-3345aa194/">Carla Naiara</a>
+  </footer>
+</body>
+</html>
